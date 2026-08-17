@@ -1,0 +1,221 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #f5f1e8;
+
+  color: #222;
+
+}
+
+header {
+
+  background: #111;
+
+  color: white;
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 30px;
+
+}
+
+header p {
+
+  color: #d8ad62;
+
+  font-weight: bold;
+
+}
+
+.hero {
+
+  background: #1c1c1c;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 80px 20px;
+
+}
+
+.hero h2 {
+
+  font-size: 42px;
+
+  margin-bottom: 15px;
+
+}
+
+.hero span {
+
+  color: #d8ad62;
+
+}
+
+.hero p {
+
+  font-size: 18px;
+
+  max-width: 650px;
+
+  margin: auto;
+
+}
+
+.buttons {
+
+  margin-top: 30px;
+
+}
+
+.btn {
+
+  display: inline-block;
+
+  padding: 14px 24px;
+
+  margin: 8px;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+.call {
+
+  background: #d8ad62;
+
+  color: #111;
+
+}
+
+.whatsapp {
+
+  background: #25d366;
+
+  color: white;
+
+}
+
+section {
+
+  padding: 60px 20px;
+
+  max-width: 1100px;
+
+  margin: auto;
+
+}
+
+section h2 {
+
+  text-align: center;
+
+  font-size: 34px;
+
+}
+
+.services {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 30px 20px;
+
+  text-align: center;
+
+  border-radius: 15px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+}
+
+.card h3 {
+
+  color: #a77c36;
+
+}
+
+.about {
+
+  background: #222;
+
+  color: white;
+
+  max-width: none;
+
+  text-align: center;
+
+}
+
+.contact {
+
+  text-align: center;
+
+}
+
+footer {
+
+  background: #111;
+
+  color: #aaa;
+
+  text-align: center;
+
+  padding: 25px;
+
+}
+
+.instagram {
+
+  color: #a77c36;
+
+  font-weight: bold;
+
+}
+
+@media (max-width: 700px) {
+
+  .services {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .hero h2 {
+
+    font-size: 32px;
+
+  }
+
+}
